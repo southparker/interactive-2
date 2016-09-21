@@ -5,15 +5,17 @@ body {
 }
 
 
+
 h1{ 
-	color: #7466FD;
+	color: #F7EEFF;
 	text-align: center;
 	font-family: helvetica;
+	text-shadow: 5px 5px 2px rgba(0,0,0,0.2);
 }
 
 
 p {
-    font-family: arial;
+    font-family: helvetica;
     font-size: 20px;
     text-align: center;
 
@@ -21,7 +23,7 @@ p {
 
 .text{ 
 
-	font-family: arial;
+	font-family: helvetica;
     font-size: 20px;
     text-align: center;
 
