@@ -1,0 +1,110 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #cccccc;
+}
+
+
+.red{
+background: #CC1609;
+}
+
+.AL{
+	width: 5px;
+	height: 100px;
+	transform: rotate(161deg);
+	position: absolute;
+	left: 50px;
+	top: 10px;
+
+}
+
+
+.AR{
+	width: 5px;
+	height: 100px;
+	transform: rotate(195deg);
+	position: absolute;
+	left: 20px;
+	top: 10px;
+
+}
+
+.Aline{
+	width: 40px;
+	height: 5px;
+	position: absolute;
+	left: 18px;
+	top: 65px;
+
+
+}
+
+
+.blue{
+	background: #09E5EA;
+}
+
+.AyeBlue{
+
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+
+.Bee{
+	position: relative;
+	left: 100px;
+	right: 100px;
+}
+
+.curve {
+	width: 52px;
+	height: 50px;
+	border: 5px solid black;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.curve2 {
+	width: 55px;
+	height: 50px;
+	border: 5px solid black;
+	border-top-right-radius: 27px;
+	border-bottom-right-radius: 27px;
+	left: 5px;
+	top: 5px;
+}
+
+.Cee{
+	position: absolute;
+	left: 300px;
+	right: 200px;
+}
+
+.ccurve{
+
+	width: 80px;
+	height: 90px;
+	border: 5px solid black;
+	border-top-right-radius: 27px;
+	border-bottom-right-radius: 27px;
+	border-radius: 200px;
+	border-right-color: transparent;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
