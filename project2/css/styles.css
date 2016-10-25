@@ -1,4 +1,11 @@
+body{
 
+  margin: 100px;
+}
+
+h1{
+  text-align: center;
+}
 
 /*This is the same for every tooth*/
 
@@ -22,7 +29,7 @@
 
 .Red div{
   position:absolute;
-  background: red;
+  background: #D22020;
 }
 
 .Redborder{
@@ -32,13 +39,18 @@
 
 .Redborder div{
   position:absolute;
-  border-color: red;
+  border-color: #D22020;
+
+}
+
+.Redborder .background{
+background: #D22020;
 
 }
 
 .Blue div{
   position:absolute;
-  background: blue;
+  background: #07ECCD;
 }
 
 .Blueborder{
@@ -48,7 +60,12 @@
 
 .Blueborder div{
   position:absolute;
-  border-color: blue;
+  border-color: #07ECCD;
+
+}
+
+.Blueborder .background{
+  background: #07ECCD;
 
 }
 
@@ -112,6 +129,7 @@
   border-radius: 200px;
   border-right-color: transparent !important;
   position: absolute;
+  left: -14px;
 }
 
 .dcurve{
@@ -120,7 +138,9 @@
   border: 5px solid black;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-    position: absolute;
+  position: absolute;
+  left: -6px;
+
 
 }
 
@@ -129,7 +149,7 @@
   width: 60px;
   height: 5px;
   top: 45px;
-  left: 10px;
+  left: -2px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -138,7 +158,7 @@
   width: 5px;
   height: 93px;
   top: 1px;
-  left: 10px;
+  left: -2px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -147,7 +167,7 @@
   width: 65px;
   height: 5px;
   top: 93px;
-  left: 10px;
+  left: -2px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -156,7 +176,7 @@
   width: 60px;
   height: 5px;
   top: 1px;
-  left: 10px;
+  left: -2px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -164,9 +184,9 @@
 
 .Efbase{
   width: 5px;
-  height: 95px;
+  height: 97px;
   top: 1px;
-  left: 10px;
+  left: -3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -176,7 +196,7 @@
   width: 60px;
   height: 5px;
   top: 1px;
-  left: 10px;
+  left: -3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -185,7 +205,7 @@
   width: 50px;
   height: 5px;
   top: 45px;
-  left: 10px;
+  left: -3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -199,14 +219,16 @@
   border-bottom-right-radius: 27px;
   border-radius: 200px;
   border-right-color: transparent;
-
+  border-right-color: transparent !important;
+  position: absolute;
+  left: -15px;
 }
 
 .Gline1{
   width: 5px;
   height: 42px;
   top: 45px;
-  left: 73px;
+  left: 58px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -215,7 +237,7 @@
   width: 30px;
   height: 5px;
   top:45px;
-  left:43px;
+  left:28px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -224,7 +246,7 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:73px;
+  left:-3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -233,7 +255,7 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:133px;
+  left:57px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -242,7 +264,7 @@
   width: 60px;
   height: 5px;
   top:45px;
-  left:75px;
+  left:-1px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -251,7 +273,7 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:85px;
+  left: 25px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -260,7 +282,7 @@
   width: 5px;
   height: 70px;
   top:2px;
-  left:85px;
+  left:45px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -269,7 +291,7 @@
   width: 40px;
   height: 33px;
   top: 65px;
-  left: 40px;
+  left: 0px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
   border-bottom-left-radius: 40px;
@@ -282,7 +304,7 @@
 .Kline{
   width: 5px;
   height: 97px;
-  left:73px;
+  left:3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -291,7 +313,7 @@
 .Kline2{
   width: 5px;
   height: 72px;
-  left:93px;
+  left:23px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(35deg);
@@ -301,7 +323,7 @@
   width: 5px;
   height: 68px;
   top:34px;
-  left:110px;
+  left:40px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(145deg);
@@ -310,7 +332,7 @@
 .Lline{
   width: 5px;
   height: 97px;
-  left:73px;
+  left:3px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -319,7 +341,7 @@
   width: 60px;
   height: 5px;
   top:92px;
-  left:74px;
+  left:4px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -327,7 +349,7 @@
 .Mleft{  
   width: 5px;
   height: 97px;
-  left:73px;
+  left:-15px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -335,7 +357,8 @@
 .Mslant1{  
   width: 5px;
   height: 87px;
-  left: 92px;
+  top: -3px;
+  left: 4px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(155deg);
@@ -344,7 +367,8 @@
 .Mslant2{  
   width: 5px;
   height: 87px;
-  left: 128px;
+  top: -3px;
+  left: 40px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(25deg);
@@ -353,7 +377,7 @@
 .Mright{  
   width: 5px;
   height: 97px;
-  left: 146px;
+  left: 59px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -361,25 +385,25 @@
 .Nleft{  
   width: 5px;
   height: 97px;
-  left:73px;
+  left:0px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .Nslant{  
   width: 5px;
-  height: 117px;
-  top:-10px;
-  left:112px;
+  height: 108px;
+  top: -6px;
+  left: 27px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(140deg);
+  transform: rotate(151deg);
 }
 
 .Nright{  
   width: 5px;
   height: 97px;
-  left:150px;
+  left:54px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -393,13 +417,14 @@
   border-bottom-right-radius: 27px;
   border-radius: 200px;
   position: absolute;
+  left: -19px;
 }
 
 .stroke{
   width: 5px;
   height: 37px;
   top:80px;
-  left:80px;
+  left:53px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(105deg);
@@ -409,7 +434,7 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:73px;
+  left:-5px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -421,7 +446,7 @@
   border-color: rgba(190,30,45, 1);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  left:73px;
+  left:-5px;
   position: absolute;
 }
 
@@ -429,7 +454,7 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:73px;
+  left:-12px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -441,52 +466,46 @@
   border-color: rgba(190,30,45, 1);
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  left:73px;
+  left:-12px;
   position: absolute;
 }
 
 .Rstroke{
   width: 5px;
-  height: 67px;
-  top:43px;
-  left:140px;
+  height: 62px;
+  top:42px;
+  left:45px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(140deg);
 }
 
 
-.SBcurve{
-  width: 65px;
-  height: 33px;
-  top: 65px;
-  left: 40px;
-  border: 5px solid;
-  border-color: rgba(190,30,45, 1);
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  border-top:none;
-  position: absolute;
+.top {
+  left: -4px;
+  border: 5px solid red;
+  width: 40px;
+  height: 40px;
+  border-radius:30px;
+  border-right-color:transparent !important;
+  transform: rotate(45deg);
 }
-
-.STcurve{
-  width: 65px;
-  height: 33px;
-  top: 5px;
-  left: 40px;
-  border: 5px solid;
-  border-color: rgba(190,30,45, 1);
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border-bottom:none;
-  position: absolute;
+.Sbottom {
+  top: 45px;
+  left: -7px;
+  border: 5px solid red;
+  width: 45px;
+  height: 45px;
+  border-radius:40px;
+  border-left-color:transparent !important;
+  transform:rotate(45deg);
 }
 
 .Ttop{
   width: 80px;
   height: 5px;
   top:1px;
-  left:35px;
+  left:-15px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -495,17 +514,17 @@
   width: 5px;
   height: 97px;
   top:2px;
-  left:73px;
+  left:23px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 
 .Ucurve{
-  width: 70px;
-  height: 103px;
-  top: 65px;
-  left: 40px;
+  width: 60px;
+  height: 95px;
+  top: 0px;
+  left: -7px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
   border-bottom-left-radius: 40px;
@@ -516,9 +535,9 @@
 
 .Vslant1{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:73px;
+  height: 100px;
+  top:-3px;
+  left:5px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(159deg);
@@ -526,9 +545,9 @@
 
 .Vslant2{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:112px;
+  height: 100px;
+  top:-3px;
+  left:42px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(21deg);
@@ -537,9 +556,9 @@
 
 .Wslant1{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:63px;
+  height: 100px;
+  top:0px;
+  left:3px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(165deg);
@@ -547,9 +566,9 @@
 
 .Wslant2{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:91px;
+  height: 100px;
+  top:0px;
+  left:31px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(15deg);
@@ -557,9 +576,9 @@
 
 .Wslant3{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:119px;
+  height: 100px;
+  top:0px;
+  left:59px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(165deg);
@@ -567,9 +586,9 @@
 
 .Wslant4{
   width: 5px;
-  height: 110px;
-  top:10px;
-  left:147px;
+  height: 100px;
+  top:0px;
+  left:87px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(15deg);
@@ -577,29 +596,29 @@
 
 .xslant1{
   width: 5px;
-  height: 117px;
-  top:10px;
-  left:112px;
+  height: 110px;
+  top:-5px;
+  left:25px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(145deg);
+  transform: rotate(152deg);
 }
 
 .xslant2{
   width: 5px;
-  height: 117px;
-  top:10px;
-  left:112px;
+  height: 110px;
+  top:-5px;
+  left:25px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(35deg);
+  transform: rotate(30deg);
 }
 
 .Yleft{  
   width: 5px;
-  height: 67px;
-  top:10px;
-  left:95px;
+  height: 57px;
+  top:-6px;
+  left:5px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(155deg);
@@ -607,9 +626,9 @@
 
 .Yright{  
   width: 5px;
-  height: 67px;
-  top:10px;
-  left:123px;
+  height: 57px;
+  top:-6px;
+  left:33px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(25deg);
@@ -617,9 +636,9 @@
 
 .Ybase{
   width: 5px;
-  height: 65px;
-  top:70px;
-  left:109px;
+  height: 55px;
+  top:46px;
+  left:19px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -628,27 +647,27 @@
 .Ztop{
   width: 69px;
   height: 5px;
-  top:19px;
-  left:81px;
+  top:8px;
+  left:-1px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .Zslant{
   width: 5px;
-  height: 117px;
-  top:10px;
-  left:113px;
+  height: 109px;
+  top:-2px;
+  left:28px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(35deg);
+  transform: rotate(41deg);
 }
 
 .Zbottom{
   width: 73px;
   height: 5px;
-  top: 115px;
-  left: 79px;
+  top: 90px;
+  left: -5px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -657,18 +676,18 @@
 
 .onebase{
   width: 5px;
-  height: 110px;
-  top: 15px;
-  left: 109px;
+  height: 100px;
+  top: 0px;
+  left: 29px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .onestroke{
   width: 5px;
-  height: 30px;
-  top: 15px;
-  left: 101px;
+  height: 25px;
+  top: 0px;
+  left: 21px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(205deg);
@@ -676,7 +695,7 @@
 
 .t3{
   width: 55px;
-  height: 55px;
+  height: 41px;
   top: 50px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
@@ -687,32 +706,35 @@
 
 .B4{
   width: 5px;
-  height: 100px;
+  height: 109px;
+  top: -6px;
+  left: 4px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .M4{
-  width: 40px;
+  width: 64px;
   height: 5px;
-  top: 59px;
-  left: -20px;
+  top: 56px;
+  left: -42px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .T4{
   width: 5px;
-  height: 67px;
-  left: -15px;
+  height: 81px;
+  left: -21px;
+  top: -13px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(25deg);
+  transform: rotate(37deg);
 }
 
 
 .T5{
-  width: 60px;
+  width: 52px;
   height: 5px;
   background-color: #BE1E2D;
   position: absolute;
@@ -720,15 +742,15 @@
 
 .M5{
   width: 5px;
-  height: 50px;
+  height: 45px;
   background-color: #BE1E2D;
   position: absolute;
 }
 
 .B5{
-  width: 55px;
-  height: 55px;
-  top: 50px;
+  width: 50px;
+  height: 45px;
+  top: 45px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
   border-top-right-radius: 55px;
