@@ -1,6 +1,7 @@
 body{
 
   margin: 100px;
+  background-color: black;
 }
 
 h1{
@@ -687,20 +688,32 @@ background: #D22020;
   width: 5px;
   height: 25px;
   top: 0px;
-  left: 21px;
+  left: 23px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(205deg);
 }
 
-.t3{
-  width: 55px;
-  height: 41px;
-  top: 50px;
+.curve3 {
+  width: 52px;
+  height: 40px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
-  border-top-right-radius: 55px;
-  border-bottom-right-radius: 55px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: absolute;
+  border-left: none;
+}
+
+.curve33 {
+  width: 55px;
+  height: 40px;
+  border: 5px solid;
+  border-color: rgba(190,30,45, 1);
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px; 
+  position: absolute;
+  top: 45px;
   border-left: none;
 }
 
@@ -773,7 +786,7 @@ background: #D22020;
 .B6{
   width: 5px;
   height: 77px;
-  left: 16px;
+  left: 15px;
   top: -45px;
   background-color: #BE1E2D;
   position: absolute;
@@ -792,7 +805,7 @@ background: #D22020;
 .S7{
   width: 5px;
   height: 117px;
-  left: 38px;
+  left: 36px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(19deg);}
@@ -883,6 +896,7 @@ background: #D22020;
 .QD{
   width: 5px;
   height: 30px;
+  top: 60px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -906,8 +920,6 @@ background: #D22020;
   position: absolute;
   transform: rotate(145deg);
 }
-
-
 
 
 
