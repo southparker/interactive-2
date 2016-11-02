@@ -22,8 +22,11 @@ h1{
 width: 100%;
 min-width: 1313px;
 background-color: #EC72AC;
-height: 100px;
+height: 250px;
 display: inline-block;
+position: absolute;
+top: 400px;
+left:1px;
 }
 
 
