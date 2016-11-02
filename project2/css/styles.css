@@ -1,7 +1,7 @@
 body{
 
   margin: 100px;
-  background-color: black;
+  background-color: #f0f4f6;
 }
 
 h1{
@@ -17,6 +17,15 @@ h1{
   width: 100px;
   display: inline-block;
 }
+
+.tongue{
+width: 100%;
+min-width: 1313px;
+background-color: #EC72AC;
+height: 100px;
+display: inline-block;
+}
+
 
 .Red {
   position:absolute;
