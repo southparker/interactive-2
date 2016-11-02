@@ -24,14 +24,14 @@ input[type=checkbox]:checked + .btooth div{
 input[type=checkbox]:checked + .btooth:hover div{
 	display: none !important;}
 
+
 /* Center the demo */
 html, body { height: 100%; }
 body {
-	margin: 0;
-	background-color: black;
-	min-width: 1313px;
+margin: 0;
+background-color: black;
+min-width: 1313px;
 }
-
 
 .teef{
 width: 100%;
