@@ -721,7 +721,7 @@ background: #D22020;
   width: 5px;
   height: 109px;
   top: -6px;
-  left: 4px;
+  left: 35px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -730,7 +730,7 @@ background: #D22020;
   width: 64px;
   height: 5px;
   top: 56px;
-  left: -42px;
+  left: -13px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -738,7 +738,7 @@ background: #D22020;
 .T4{
   width: 5px;
   height: 81px;
-  left: -21px;
+  left: 10px;
   top: -13px;
   background-color: #BE1E2D;
   position: absolute;
@@ -775,6 +775,8 @@ background: #D22020;
 .T6{
   width: 60px;
   height: 60px;
+  top: 35px;
+  left: -7px;
   border: 5px solid;
   border-color: rgba(190,30,45, 1);
   border-top-right-radius: 25px;
@@ -786,8 +788,8 @@ background: #D22020;
 .B6{
   width: 5px;
   height: 77px;
-  left: 15px;
-  top: -45px;
+  left: 10px;
+  top: -17px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(23deg);
@@ -799,6 +801,7 @@ background: #D22020;
   height: 5px;
   background-color: #BE1E2D;
   position: absolute;
+  top: -5px;
 
 }
 
@@ -806,6 +809,7 @@ background: #D22020;
   width: 5px;
   height: 117px;
   left: 36px;
+  top: -5px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(19deg);}
@@ -860,16 +864,18 @@ background: #D22020;
 .EP{
   width: 5px;
   height: 90px;
-  top: 5px;
+  top: -5px;
   background-color: #BE1E2D;
   position: absolute;
+  left: 20px;
 }
 
 
 .ED{
   width: 5px;
   height: 7px;
-  top: 105px;
+  top: 95px;
+  left: 20px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -883,12 +889,13 @@ background: #D22020;
   border-bottom-right-radius: 50px;
   position: relative;
   border-left: none;
+  top: -5px;
 }
 
 .QB{
   width: 5px;
   height: 7px;
-  top: 105px;
+  top: 95px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -896,7 +903,7 @@ background: #D22020;
 .QD{
   width: 5px;
   height: 30px;
-  top: 60px;
+  top: 55px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -906,7 +913,8 @@ background: #D22020;
 .period{
   width: 5px;
   height: 7px;
-  top: 105px;
+  top: 95px;
+  left: 20px;
   background-color: #BE1E2D;
   position: absolute;
 }
@@ -914,8 +922,8 @@ background: #D22020;
 .comma{
   width: 5px;
   height: 10px;
-  top: 106px;
-  left: 3px;
+  left: 23px;
+  top: 95px;
   background-color: #BE1E2D;
   position: absolute;
   transform: rotate(145deg);

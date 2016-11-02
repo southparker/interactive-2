@@ -37,6 +37,8 @@ width: 100%;
 min-width: 1313px;
 background-color: #EC72AC;
 height: 100px;
+top: 100px;
+display: none;
 }
 
 .teef{
