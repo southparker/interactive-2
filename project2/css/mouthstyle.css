@@ -1,6 +1,6 @@
 .roof {
 	width: 100%;
-	min-width: 2313px;
+	min-width: 2020px;
 
 	height: 100px;
 	background: #BE3C62;
@@ -9,10 +9,33 @@
 input{
   display: none !important;
 }
+a {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display: none !important;
+}
 
 input[type=checkbox]:checked + label{
 	background: black;
 }
+input[type=checkbox]:checked + label.special{
+	background: #F3DA12;
+}
+input[type=checkbox]:checked + label.special a{
+	display: block !important;
+}
+
+input[type=checkbox]:checked + label.pull{
+	background: #2D793E;
+}
+input[type=checkbox]:checked + label.pull a{
+	display: block !important;
+}
+
+
 input[type=checkbox]:checked + .tooth div{
 	display: none !important;
 }
@@ -32,12 +55,12 @@ html, body { height: 100%; }
 body {
 margin: 0;
 background-color: black;
-min-width: 1313px;
+min-width: 2020px;
 }
 
 .teef{
 width: 100%;
-min-width: 2313px;
+min-width: 2020px;
 height: 60px;
 }
 
@@ -63,7 +86,7 @@ display: block;
 
 .bteef{
 width: 100%;
-min-width: 2313px;
+min-width: 2021px;
 position: absolute;
 bottom: 100px;
 }
@@ -79,7 +102,7 @@ float:left;
 position: relative;
 }
 
-.btooth *{
+.btooth > div{
 display: none;
 margin-left:10px;
 margin-top:4px;
@@ -91,7 +114,7 @@ display: block;
 
 .bottom{	
 width: 100%;
-min-width: 2313px;
+min-width: 2021px;
 height: 100px;
 background: #BE3C62;
 position: absolute;
@@ -100,7 +123,16 @@ bottom: 0;
 
 
 
-
+.tongue{
+width: 100%;
+min-width: 2020px;
+background-color: #EC72AC;
+height: 250px;
+display: inline-block;
+position: absolute;
+top: 400px;
+left:1px;
+}
 
 
 

@@ -20,23 +20,14 @@ h1{
 
 .phrase{
   position: relative;
-  display: none;
+  display: inline-block;
   width: 85px;
   margin-left: 15px;
   margin-top: 25px;
 
 }
 
-.tongue{
-width: 100%;
-min-width: 2313px;
-background-color: #EC72AC;
-height: 250px;
-display: inline-block;
-position: absolute;
-top: 400px;
-left:1px;
-}
+
 
 
 .Red {
@@ -715,6 +706,48 @@ background: #D22020;
   transform: rotate(205deg);
 }
 
+
+.curve22{
+  width: 51px;
+  height: 55px;
+  border: 5px solid;
+  border-color: rgba(190,30,45, 1);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-radius: 200px;
+  position: absolute;
+  border-left-color: transparent !important;
+  border-bottom-color: transparent !important;
+  top: 0px;
+  left: 5px;
+  transform: rotate(-5deg);
+}
+
+.Redborder .curve22{
+  left: 11px;
+}
+
+.bottom2{
+  width: 5px;
+  height: 63px;
+  left: 35px;
+  top: 41px;
+  background-color: #BE1E2D;
+  position: absolute;
+  transform: rotate(39deg);
+
+}
+
+.boddom{
+  width: 58px;
+  height: 5px;
+  top: 96px;
+  left: 15px;
+  background-color: #BE1E2D;
+  position: absolute;
+}
+
+
 .curve3 {
   width: 52px;
   height: 40px;
@@ -833,7 +866,8 @@ background: #D22020;
   top: -5px;
   background-color: #BE1E2D;
   position: absolute;
-  transform: rotate(19deg);}
+  transform: rotate(19deg);
+}
 
 
 .T8{
@@ -881,6 +915,24 @@ background: #D22020;
   position: absolute;
   transform: rotate(25deg);
 }
+
+.zero{
+    width: 55px;
+    height: 93px;
+    border: 5px solid;
+    border-color: rgba(190,30,45, 1);
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    border-radius: 350px;
+    position: absolute;
+    left: -5px;
+}
+
+
+
+
+
+
 
 .EP{
   width: 5px;
