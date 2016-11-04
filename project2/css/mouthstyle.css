@@ -126,8 +126,6 @@ position: absolute;
 bottom: 0;
 }
 
-
-
 .tongue{
 width: 100%;
 min-width: 2020px;
@@ -138,12 +136,6 @@ position: absolute;
 top: 400px;
 left:1px;
 }
-
-
-
-
-
-
 
 
 .tuf{
@@ -170,12 +162,13 @@ border-top-right-radius:20px;
 margin-left: 1px;
 float:left;
 position: relative;
+top: -145px;
 }
 
 
 .bruff{
 width: 100%;
-min-width: 2021px;
+min-width: 501px;
 height: 100px;
 background: #BE3C62;
 position: absolute;
@@ -188,10 +181,21 @@ width: 100%;
 min-width: 500px;
 height: 100px;
 background: #BE3C62;
+position: absolute;
+
 }
 
 
-
+.tongue2{
+width: 100%;
+min-width: 500px;
+background-color: #EC72AC;
+height: 250px;
+display: inline-block;
+position: absolute;
+top: 400px;
+left:1px;
+}
 
 
 
