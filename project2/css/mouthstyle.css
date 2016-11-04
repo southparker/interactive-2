@@ -138,65 +138,6 @@ left:1px;
 }
 
 
-.tuf{
-background-color: white;
-width: 100px;
-height: 120px;
-border-bottom-left-radius:20px;
-border-bottom-right-radius:20px;
-margin-left: 1px;
-float:left;
-position: relative;
-margin-left:10px;
-margin-top:4px;
-top: 70px;
-}
-
-
-.btuf{
-background-color: white;
-width: 100px;
-height: 120px;
-border-top-left-radius:20px;
-border-top-right-radius:20px;
-margin-left: 1px;
-float:left;
-position: relative;
-top: -145px;
-}
-
-
-.bruff{
-width: 100%;
-min-width: 501px;
-height: 100px;
-background: #BE3C62;
-position: absolute;
-bottom: 0;
-}
-
-
-.ruff{
-width: 100%;
-min-width: 500px;
-height: 100px;
-background: #BE3C62;
-position: absolute;
-
-}
-
-
-.tongue2{
-width: 100%;
-min-width: 500px;
-background-color: #EC72AC;
-height: 250px;
-display: inline-block;
-position: absolute;
-top: 400px;
-left:1px;
-}
-
 
 
 
