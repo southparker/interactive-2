@@ -50,6 +50,11 @@ input[type=checkbox]:checked + .btooth:hover div{
 	display: none !important;}
 
 
+input[type="checkbox"]:checked + .btooth {
+    background: #EC72AC;
+}
+
+
 /* Center the demo */
 html, body { height: 100%; }
 body {
@@ -141,7 +146,6 @@ left:1px;
 
 
 
-
 .tuf{
 background-color: white;
 width: 100px;
@@ -150,18 +154,41 @@ border-bottom-left-radius:20px;
 border-bottom-right-radius:20px;
 margin-left: 1px;
 float:left;
+position: absolute;
+margin-left:10px;
+margin-top:4px;
+top: 70px;
 }
 
 
+.btuf{
+background-color: white;
+width: 100px;
+height: 120px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+margin-left: 1px;
+float:left;
+position: relative;
+}
 
 
+.bruff{
+width: 100%;
+min-width: 2021px;
+height: 100px;
+background: #BE3C62;
+position: absolute;
+bottom: 0;
+}
 
 
-
-
-
-
-
+.ruff{
+width: 100%;
+min-width: 500px;
+height: 100px;
+background: #BE3C62;
+}
 
 
 
