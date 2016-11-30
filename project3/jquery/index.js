@@ -3,7 +3,9 @@
 
 
 
-$('#pic1')
+$("#pic1").attr('class', 'picture');
+
+$("#pic1").attr('class', 'picture');
 
 
 
