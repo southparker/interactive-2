@@ -1,79 +1,37 @@
-.cavas{
-	width: 100%;
-	min-width: 2020px;
-	height: 100px;
+
+
+body > div {
+	width: 1300px;
+	height: 1300px;
+	overflow-x: hidden;
+}
+p{
+	font-family: sans-serif;
+	position: absolute;
+	font-size: 15px;
+	color: #160B85;
+	font-family: helvetica;
+}
+
+.group1{
+	position: relative;
+}
+
+.group1 *{
+	position: absolute;
+	opacity: 1;
 }
 
 .ball1 {
-	margin-left: 135px;
+	margin-left: 137px;
 	position: absolute;
-	margin-top: 30px;
+	margin-top: 22px;
 	z-index: 2;
 }
 
-.ball1:hover ~ .statues .pic1 {
-visibility: visible
-}
-
-.ball2 {
-	margin-left: 358px;
-	position: absolute;
-	margin-top: 35px;
-	z-index: 2;
-}
-
-.ball2:hover ~ .statues .pic2 {
-visibility: visible }
-
-.ball3 {
-	margin-left: 936px;
-	position: absolute;
-	margin-top: 350px;
-	z-index: 2;
-	display: inline-block;
-
-}
-
-.ball3:hover ~ .statues .pic3 {
-visibility: visible }
-
-.ball4 {
-	margin-left: 174px;
-	position: absolute;
-	margin-top: 711px;
-	z-index: 2;
-	display: inline-block;
-
-}
-
-.ball4:hover ~ .statues .pic4 {
-visibility: visible }
-
-.ball5 {
-	margin-left: 513px;
-	position: absolute;
-	margin-top: 968px;
-	z-index: 2;
-}
-
-.ball5:hover ~ .statues .pic5 {
-visibility: visible }
-
-.ball6 {
-	margin-left: 771px;
-	position: absolute;
-	margin-top: 709px;
-	z-index: 2;
-}
-
-.ball6:hover ~ .statues .pic6 {
-visibility: visible 
-}
-
-
-.statues{
-	position: absolute;
-
+.ball1:hover ~ * {
+	opacity: 1;
+	transition: all 1s ease 0s;
 }
 
 .pic1{
@@ -83,17 +41,78 @@ visibility: visible
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
+	opacity: 0;
+	transition: all 1s ease .3s;	}
+
+.caption1{
+	opacity: 0;
+	transition: all 1s ease .3s;
+	margin-left: 243px;
+	margin-top: 75px;
 }
 
+.group2{
+	position: relative;
+	left: 375px;
+	top: 105px;
+}
+
+.group2 *{
+	position: absolute;
+	opacity: 1;
+}
+
+.ball2 {
+	margin-left: 54px;
+	position: absolute;
+	margin-top: 24px;
+	z-index: 2;
+}
+
+.ball2:hover ~ * {
+	opacity: 1;
+	transition: all 1s ease 0s;
+}
+
+
 .pic2{
-	margin-top: 15px;
-	margin-left: 5px;
 	display: inline-block;
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
+	opacity: 0;
+	transition: all 1s;}
+
+.caption2{
+	opacity: 0;
+	transition: all 1s ease .3s;
+	margin-left: 263px;
+	margin-top: 105px;
+}
+
+.group3{
+	position: relative;
+	left: 706px;
+	top: 149px;
+}
+
+.group3 *{
+	position: absolute;
+	opacity: 1;
+}
+
+.ball3 {
+	margin-left: 278px;
+	position: absolute;
+	margin-top: 83px;
+	z-index: 2;
+	display: inline-block;
+}
+
+.ball3:hover ~ * {
+	opacity: 1;
+		transition: all 1s ease 0s;
+
 }
 
 .pic3{
@@ -103,28 +122,135 @@ visibility: visible
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
-
+	opacity: 0;
+	transition: all 1s;
 }
 
-.pic4{
+.caption3{
+	opacity: 0;
+	transition: all 1s ease .3s;
+	margin-left: 215px;
+	margin-top: 70px;
+}
+
+
+.group4{
+	position: relative;
+	top: 683px;
+	left: 50px;
+}
+
+.group4 *{
+	position: absolute;
+	opacity: 1;
+}
+
+.ball4 {
+	margin-left: 171px;
+	position: absolute;
+	margin-top: 26px;
+	z-index: 2;
+	display: inline-block;
+}
+
+.ball4:hover ~ * {
+		opacity: 1;
+			transition: all 1s ease 0s;
+
+ }
+
+
+
+ .pic4{
 	margin-top: 15px;
 	margin-left: 5px;
 	display: inline-block;
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
+	opacity: 0;
+	transition: all 1s;}
+
+.caption4{
+	opacity: 0;
+	transition: all 1s ease .3s;
+	margin-left: 42px;
+	margin-top: 240px;
 }
 
-.pic5{
+
+
+.group5{
+	position: relative;
+	top: 737px;
+	left: 377px;
+}
+
+.group5 *{
+	position: absolute;
+	opacity: 1;
+}
+
+.ball5 {
+		margin-left: 213px;
+		position: absolute;
+		margin-top: 138px;
+		z-index: 2;	
+}
+
+	.ball5:hover ~ * {
+			opacity: 1;
+				transition: all 1s ease 0s;
+
+ }
+
+
+ .pic5{
 	margin-top: 15px;
 	margin-left: 5px;
 	display: inline-block;
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
+	opacity: 0;
+	transition: all 1s;}
+
+ .caption5{
+	opacity: 0;
+	transition: all 1s ease .3s;
+    margin-left: 303px;
+    margin-top: 125px;
+}
+
+
+.group6{
+	position: relative;
+	top:566px;
+	left: 891px;
+}
+
+.group6 *{
+	position: absolute;
+	opacity: 1;
+}
+
+.ball6 {
+	margin-left: 165px;
+	position: absolute;
+	margin-top: 65px;
+	z-index: 2;
+}
+
+.ball6:hover ~ * {
+		opacity: 1;
+			transition: all 1s ease 0s;
+}
+
+.caption6{
+	opacity: 0;
+	transition: all 1s ease .3s;
+    margin-left: 24px;
+    margin-top: 205px;
 }
 
 .pic6{
@@ -134,110 +260,91 @@ visibility: visible
 	padding: 5px;
 	padding-top: 5px;
 	padding-right: 5px;
-	visibility: hidden;
-}
+	opacity: 0;
+	transition: all 1s;}
+
 
 
 .ball7 {
-	margin-left: 935px;
+	margin-left: 685px;
 	position: absolute;
 	margin-top: 30px;
 	z-index: 2;
 }
 
-.ball7:hover ~ .statues .imgDes {
-visibility: visible
-}
+.ball7:hover ~ * {
+opacity: 1;
+			transition: all 1s ease 0s;}
 
 .imgDes{
 	font-family: sans-serif;
-	visibility: hidden;
 	position: absolute;
-	margin-left: 207px;
-	position: absolute;
-	margin-top: -1152px;
-	font-size: 130px;
+	margin-left: 199px;
+	margin-top: 224px;
+	font-size: 120px;
 	color: #160B85;
-	font-style: helvetica;
+	font-family: helvetica;
+	opacity: 0;
+	transition: all 1s ease .3s;
 }
+
+#check{
+	display: none;
+}
+
+label {
+	cursor: pointer;
+}
+
+label:hover ~ p {
+	opacity: 1;
+	transition: all 1s ease 0s;
+
+}
+
+#check:checked ~ div *{
+opacity: 1;
+}
+
 
 .ball8 {
-	margin-left: 435px;
+	left: 804px;
 	position: absolute;
-	margin-top: 520px;
+	top: 608px;
 	z-index: 2;
+		transition: all 1s ease .3s;
+
+}
+
+.ball8:hover{
+	width: 900px;
+	top: 0px;
+	left: 0px;
+}
+
+.desc{
+	font-family: sans-serif;
+	position: absolute;
+	margin-left: 199px;
+	margin-top: 534px;
+	font-size: 24px;
+	color: #160B85;
+	font-family: helvetica;
+	opacity: 0;
+	transition: all 1s ease .3s;
 }
 
 
-/*
-.circle {
-	width: 80px;
-	height: 80px;
-	background: background: #000a7a; /* Old browsers */ /*
-	background: -moz-linear-gradient(top, #000a7a 0%, #007bff 50%, #0010c1 100%); 
-	background: -webkit-linear-gradient(top, #000a7a 0%,#007bff 50%,#0010c1 100%); 
-	background: linear-gradient(to bottom, #000a7a 0%,#007bff 50%,#0010c1 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000a7a', endColorstr='#0010c1',GradientType=0 );
-	copy;
-	-moz-border-radius: 46px;
-	-webkit-border-radius: 27px;
-	border-radius: 38px;
-	margin-left: 144px;
-	position: absolute;
-	margin-top: 28px;
-	z-index: 2;
-}
-
-.circle:hover ~ .statues .pic1 {
-visibility: visible }
 
 
-.circle2 {
-	width: 80px;
-	height: 80px;
-	background: #2B33D0;
-	-moz-border-radius: 46px;
-	-webkit-border-radius: 27px;
-	border-radius: 38px;
-	margin-left: 738px;
-	position: absolute;
-	margin-top: 80px;
-	z-index: 2;
-}
 
-.circle2:hover ~ .statues .pic2 {
-visibility: visible }
 
-.circle3 {
-	width: 80px;
-	height: 80px;
-	background: #2B33D0;
-	-moz-border-radius: 46px;
-	-webkit-border-radius: 27px;
-	border-radius: 38px;
-	margin-left: 445px;
-	position: absolute;
-	margin-top: 940px;
-	z-index: 2;
-}
 
-.circle3:hover ~ .statues .pic3 {
-visibility: visible }
 
-.circle4 {
-	width: 80px;
-	height: 80px;
-	background: #2B33D0;
-	-moz-border-radius: 46px;
-	-webkit-border-radius: 27px;
-	border-radius: 38px;
-	margin-left: 795px;
-	position: absolute;
-	margin-top: 1420px;
-	z-index: 2;
-}
 
-.circle4:hover ~ .statues .pic4 {
-visibility: visible }
 
-*/
+
+
+
+
+
