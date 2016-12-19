@@ -1,0 +1,67 @@
+
+
+
+
+
+
+/*This is the same for every tooth*/
+
+#head {
+  width: 500px;
+  height: 500px;
+  background: #BCE414;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 250px;
+}
+
+/*This is the same for every tooth*/
+
+
+
+
+
+#head2 {
+  width: 500px;
+  height: 500px;
+  background: #BCE414;
+  -moz-border-radius: 250px;
+  -webkit-border-radius: 250px;
+  border-radius: 50px;
+  position: absolute;
+}
+
+
+#SBcurve{
+  width: 96px;
+  height: 33px;
+  top: 65px;
+  left: 40px;
+  border: 5px solid;
+  border-color: rgba(190,30,45, 1);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top:none;
+  position: absolute;
+}
+
+#STcurve{
+  width: 96px;
+  height: 33px;
+  top: 100px;
+  left: 40px;
+  border: 5px solid;
+  border-color: rgba(190,30,45, 1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom:none;
+  position: absolute;
+}
+
+
+
+
+
+
+
+
